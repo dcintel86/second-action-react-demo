@@ -4,6 +4,8 @@ on:
     types:
       - opened
       - closed
+  workflow_dispatch:
+  push:
 
 jobs: 
     test:
